@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #F4FAFF 0%, #EAF4FF 50%, #DCEEFF 100%);
+  border: 2px solid #9DCBFF;
+  user-select: none;
+  -webkit-app-region: drag;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.calendar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+p {
+  margin: 0;
+}
+
+.app {
+  background-color: #D6E9FF;
+  border: 3px solid #AFCDF2;
+  padding: 10px 24px;
+  width: 178px;
+  height: 159px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  overflow: hidden;
+}
+
+.header{
+  width: 157px;
+  height: 27px;
+  border-radius: 100px;
+  padding: 4px 10px;
+  background-color: #badaff;
+  border: 1px solid #9FC3F0;
+  font-family: "Pixelify Sans", sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.date{
+  font-size: 90px;
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+  line-height: 1;
+  margin-bottom: -6px;
+  text-shadow:
+    -1.5px -1.5px 0 #A8CBF0,
+     1.5px -1.5px 0 #A8CBF0,
+    -1.5px  1.5px 0 #A8CBF0,
+     1.5px  1.5px 0 #A8CBF0;
+}
+
+.month{
+  font-size: 24px;
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+  text-shadow:
+    -1.5px -1.5px 0 #A8CBF0,
+     1.5px -1.5px 0 #A8CBF0,
+    -1.5px  1.5px 0 #A8CBF0,
+     1.5px  1.5px 0 #A8CBF0;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+}
