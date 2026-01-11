@@ -6,7 +6,7 @@
 
 ## What's This?
 
-This is a tiny, adorable desktop calendar widget built with Electron! It sits on your desktop and shows you today's date in a super cute pixel-art style. Perfect for anyone who wants their desktop to feel a bit more ~aesthetic~ 💙
+This is a tiny, adorable desktop calendar widget built with Electron! It sits on your desktop and shows you today's date in a super cute pixel-art style. Perfect for anyone who wants their desktop to feel a bit more aesthetic 💙
 
 The widget features:
 - 🎨 Soft blue gradient backgrounds
