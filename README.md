@@ -1,7 +1,8 @@
 # 📅 San's Desktop Calendar Widget
 
-> *A cute little calendar that lives on your desktop! ✨*
 ![Calendar Widget](image.png)
+
+> *A cute little calendar that lives on your desktop! ✨*
 
 ## What's This?
 
